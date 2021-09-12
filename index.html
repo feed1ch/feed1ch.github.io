@@ -17,6 +17,19 @@
     <p>Продукты от Adobe затрагивают разные сферы жизни, начиная от фотографий и заканчивая музыкой.</p>
     <!--Изображение внутри ссылки-->
     <a href="https://adobe.com"><img src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/business/app-integrations/adobe/adobe_logo_6.png" alt=""></a>
+    <h2>ЛР2</h2>
+    <form action="#">
+        <input type="text" placeholder="Имя" pattern="[A-Za-zА-Яа-яЁё]+"><br>
+        <input type="date"><br>
+        <input type="text" placeholder="СНИЛС" pattern="[0-9]{11}"><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="text" placeholder="Номер авто" pattern="[АВЕКМНОРСТУХавекмнорстух][0-9]{3}[АВЕКМНОРСТУХавекмнорстух]{2}"><br>
+        <input type="text" placeholder="Город"><br>
+        <input type="text" placeholder="ИНН" pattern="[1-9][0-9]{11}"><br>
+        <input type="text" placeholder="Номер телефона" pattern="[1-9][0-9]{10}"><br>
+        <input type="text" placeholder="Номер карты" pattern="[0-9]{12}"><br>
+        <input type="submit" value="send">
+    </form>
     <!--Стили страницы-->
     <style>
         *{
@@ -29,6 +42,9 @@
         img{
             width: 10%;
             border: blue 2px solid;
+        }
+        input{
+            margin-bottom: 5px;
         }
     </style>
 </body>
